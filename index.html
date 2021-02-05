@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <title>Vanilla Paint</title>
+</head>
+<body style="background-color: #eee;">
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout container">
+    <span class="mdl-layout-title text-center pt-4">Vanilla paint</span> 
+    <input class="mdl-textfield__input" id="hex" placeholder="enter hex value or color name" style="background-color: #fff;">
+    <div class="d-flex">
+      <button id="clr-btn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+        clear
+      </button>
+    </div>
+  </div>
+  
+  <canvas id="draw"></canvas>
+  
+  
+  
+  <script src="app.js"></script>
+</body>
+</html>
